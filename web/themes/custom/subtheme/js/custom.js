@@ -15,7 +15,7 @@
         dots: true,
         nav: false,
         margin: 24,
-        loop: false,
+        loop: true,
         items: 1,
         responsiveClass:true,
         responsive:{
