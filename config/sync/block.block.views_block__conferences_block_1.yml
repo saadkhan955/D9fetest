@@ -1,0 +1,24 @@
+uuid: 9e942daa-90bb-4d36-9052-2dd6dc0727ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.conferences
+  module:
+    - views
+  theme:
+    - subtheme
+id: views_block__conferences_block_1
+theme: subtheme
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:conferences-block_1'
+settings:
+  id: 'views_block:conferences-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

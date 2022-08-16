@@ -1,0 +1,19 @@
+uuid: d3de9c03-4ab0-4bab-b4de-7d9f70f06a52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address_string
+    - node.type.conference
+id: node.conference.field_address_string
+field_name: field_address_string
+entity_type: node
+bundle: conference
+label: 'Address string'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

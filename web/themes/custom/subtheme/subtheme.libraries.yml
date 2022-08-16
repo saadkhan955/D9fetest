@@ -1,0 +1,21 @@
+global-styling:
+  version: VERSION
+  js: 
+    js/bootstrap.min.js: { weight: -48 }
+    js/barrio.js: {}
+    js/custom.js: {}
+  css:
+    component:
+      css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/popperjs
+
+owl:
+  js:
+    libs/owlCarousel/dist/owl.carousel.min.js: {}
+  css:
+    component:
+      libs/owlCarousel/dist/assets/owl.carousel.min.css: {}
+      libs/owlCarousel/dist/assets/owl.theme.default.min.css: {}
